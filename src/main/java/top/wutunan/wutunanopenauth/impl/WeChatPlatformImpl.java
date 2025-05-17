@@ -9,7 +9,7 @@ import top.wutunan.wutunanopenauth.model.AbstractAppletInfo;
 
 import java.util.HashMap;
 
-public class WeChatPlatformIpl implements OpenPlatformOpenId {
+public class WeChatPlatformImpl implements OpenPlatformOpenId {
 
     @Override
     public String getOpenId(String openCode, AbstractAppletInfo appletInfo) {
